@@ -1,0 +1,38 @@
+{
+  "name": "creativedevtemplate",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PedroBaltazarWeb/creativeDevTemplate#readme",
+  "bugs": {
+    "url": "https://github.com/PedroBaltazarWeb/creativeDevTemplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroBaltazarWeb/creativeDevTemplate.git"
+  },
+  "license": "ISC",
+  "author": "Pedro Baltazar Design",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.build.js",
+    "development": "webpack server --progress --config webpack.config.development.js",
+    "start": "npm run development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1"
+  }
+}
